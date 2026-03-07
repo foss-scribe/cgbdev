@@ -1,40 +1,71 @@
 <template>
-    <div class="hero text-neutral-content min-h-1/3">
-        <div class="hero-content flex-col lg:flex-row-reverse">
-            <div class="avatar">
-                <div class="w-48 rounded-full">
-                    <img src="~/assets/images/cgb-avatar.jpg" />
-                </div>
-            </div>
-            <div>
-                <h1 class="text-5xl font-bold">Chris Gardiner-Bill</h1>
-                <p class="py-6 text-center">
-                    Technical Writer | Developer | DevOps | Trainer <br />Bringing clarity to complexity.
-                </p>
-                <div class="flex gap-2">
-                    <button class="btn btn-neutral">Technical Writing</button>
-                    <button class="btn btn-neutral">Development</button>
-                    <button class="btn btn-neutral">DevOps</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 text-center">
-        <div class="bg-neutral p-4">
-            <div class="text-3xl mb-4">Technical Writing</div>
-            <div>Experienced in API documentation, user guides, and tutorials using docs-as-code principles.</div>
-        </div>
-        <div class="bg-neutral p-4">
-            <div class="text-3xl mb-4">Development</div>
-            <div>Full-stack web developer proficient in Python, JavaScript/Typescript and modern web technologies including Vue.js, React, and Node.js.</div>
-        </div>
-        <div class="bg-neutral p-4">
-            <div class="text-3xl mb-4">DevOps &amp; Infrastructure</div>
-            <div>Experienced in cloud services (AWS, Cloudflare, GCP), virtual private servers, Docker and CI/CD pipelines.</div>
-        </div>
-        <div class="bg-neutral p-4">
-            <div class="text-3xl mb-4">Training</div>
-            <div>Experienced technical trainer and .</div>
-        </div>
-    </div>
+
+    <UPageHero title="Chris Gardiner-Bill"
+        description="Building tools and documentation that help developers integrate APIs and AI systems."
+        :links="links" />
+
+        <USeparator />
+
+    <UPageSection title="What I do" description="I specialize in technical writing, software development, and DevOps, with a focus on API documentation, web development, and cloud infrastructure.">
+        <UPageGrid >
+            <UPageCard title="Technical Writing"
+                description="API documentation, user guides, and tutorials. Editing, style guides, content strategies, and training." />
+            <UPageCard title="Development"
+                description="Full-stack web developer with Python, JavaScript/Typescript and modern web technologies including Vue, React, and Node." />
+            <UPageCard title="DevOps &amp; Infrastructure"
+                description="Automated deployment to cloud services (AWS, Cloudflare, GCP), virtual private servers, Docker and CI/CD pipelines." />
+        </UPageGrid>
+    </UPageSection>
+
+    <USeparator />
+    
+  <UPageSection
+    title="What I build"
+    description="I build tools and documentation that help developers integrate APIs and AI systems, including:"
+    :features="buildFeatures"
+  />
+
 </template>
+
+<script setup lang="ts">
+import type { ButtonProps } from '@nuxt/ui'
+
+const links = ref<ButtonProps[]>([
+    {
+        label: 'Projects',
+        to: '/projects',
+        icon: 'i-lucide-code',
+        color: 'neutral',
+        variant: 'subtle',
+    },
+    {
+        label: 'Writing',
+        to: '/writing',
+        color: 'neutral',
+        variant: 'subtle',
+        icon: 'i-lucide-pencil'
+    }
+])
+
+const buildFeatures = ref<PageFeatureProps[]>([
+  {
+    title: 'Documentation systems',
+    description: 'Docs-as-code documentation systems, static site generators, and documentation frameworks.',
+    icon: 'i-lucide-pencil',
+    // to: '/docs/getting-started/integrations/icons'
+  },
+  {
+    title: 'API integration tooling',
+    description: 'Tools and libraries for integrating with APIs, including SDKs, client libraries, and automation scripts.',
+    icon: 'i-lucide-plug',
+    // to: '/docs/getting-started/integrations/fonts'
+  },
+  {
+    title: 'AI-powered documentation assistants',
+    description: 'Intelligent assistants that help generate, maintain, and improve documentation using AI technologies.',
+    icon: 'i-lucide-bot',
+    // to: '/docs/getting-started/integrations/color-mode'
+  },
+])
+
+</script>

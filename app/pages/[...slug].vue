@@ -1,10 +1,9 @@
 <template>
-    <div v-if="page" class="prose lg:prose-xl mx-auto p-6">
-        <h1>{{ page.title }}</h1>
-        <ContentRenderer :value="page" />
-        
-    </div>
+  <UPageSection v-if="page" :title="page.title" :headline="page.meta.headline">
+    <ContentRenderer :value="page" />
+  </UPageSection>
 </template>
+
 <script setup lang="ts">
 const route = useRoute();
 
