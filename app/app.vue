@@ -51,6 +51,7 @@
 
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
+umTrackView().then((res: any) => console.log(res.ok));
 
 const route = useRoute()
 
