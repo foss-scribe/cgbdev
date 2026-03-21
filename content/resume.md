@@ -27,38 +27,38 @@ Industry experience includes **AI platforms, SaaS products, fintech, analytics, 
 
 ### Developer Experience
 
-* Developer portals and onboarding systems
-* API documentation and developer platforms
-* Developer education and integration guides
-* Documentation architecture and information design
+- Developer portals and onboarding systems
+- API documentation and developer platforms
+- Developer education and integration guides
+- Documentation architecture and information design
 
 ### Docs-as-Code & Automation
 
-* Git-based documentation workflows
-* CI/CD pipelines for documentation publishing
-* automated documentation generation
-* static documentation platforms (MkDocs, React-based docs)
+- Git-based documentation workflows
+- CI/CD pipelines for documentation publishing
+- Automated documentation generation
+- Static documentation platforms (MkDocs, React-based docs)
 
 ### AI & Knowledge Systems
 
-* AI documentation hubs
-* LLM-assisted developer support tools
-* knowledge architecture for AI-driven platforms
-* prompt design and AI workflow documentation
+- AI documentation hubs
+- LLM-assisted developer support tools
+- Knowledge architecture for AI-driven platforms
+- Prompt design and AI workflow documentation
 
 ### Software Development
 
-* API development and debugging
-* OpenAPI / Swagger ecosystems
-* full-stack development (Python / JavaScript)
-* automation tooling
+- API development and debugging
+- OpenAPI / Swagger ecosystems
+- Full-stack development (Python / JavaScript)
+- Automation tooling
 
 
 ## Technical Stack
 
 - **Languages**:
 
-    Python • JavaScript • TypeScript • SQL • PHP
+    Python • JavaScript • TypeScript • SQL • PHP • HTML
 
 - **Frameworks & Tools**:
 
@@ -85,10 +85,10 @@ Responsibilities include designing and maintaining internal developer documentat
 
 Key contributions:
 
-* Developed and maintained **AI platform documentation** used by engineers across the organisation.
-* Contributed to a **React-based internal developer documentation platform** supporting AI tooling adoption.
-* Partnered with engineering teams to document **AI workflows, APIs, and integration patterns**.
-* Helped establish best practices for **knowledge architecture and AI documentation governance**.
+- Developed and maintained **AI platform documentation** used by engineers across the organisation.
+- Contributed to a **React-based internal developer documentation platform** supporting AI tooling adoption.
+- Partnered with engineering teams to document **AI workflows, APIs, and integration patterns**.
+- Helped establish best practices for **knowledge architecture and AI documentation governance**.
 
 
 ### Senior Technical Writer (Developer Experience)
@@ -99,21 +99,21 @@ Worked closely with engineering teams to design and scale **developer knowledge 
 
 Key contributions:
 
-* Designed and implemented Canva’s **AI documentation hub**, enabling engineers and product teams to access platform knowledge quickly.
-* Developed onboarding programs for **AI/ML engineers**, significantly improving developer ramp-up time.
-* Contributed to the **Canva Engineering Handbook and Backstage developer portal**, improving discoverability of engineering knowledge.
-* Authored and maintained critical **API documentation and integration guides** for developer platforms.
+- Designed and implemented Canva’s **AI documentation hub**, enabling engineers and product teams to access platform knowledge quickly.
+- Developed onboarding programs for **AI/ML engineers**, significantly improving developer ramp-up time.
+- Contributed to the **Canva Engineering Handbook and Backstage developer portal**, improving discoverability of engineering knowledge.
+- Authored and maintained critical **API documentation and integration guides** for developer platforms.
 
 Selected work:
 
-* Autofill Guide
-* Return Navigation Guide
+- Autofill Guide
+- Return Navigation Guide
 
 Key impact:
 
-* Reduced onboarding friction for AI/ML engineers.
-* Improved accessibility of engineering knowledge across teams.
-* Supported internal developer platform adoption.
+- Reduced onboarding friction for AI/ML engineers.
+- Improved accessibility of engineering knowledge across teams.
+- Supported internal developer platform adoption.
 
 
 ### Technical Writer (Developer Platforms)
@@ -124,16 +124,16 @@ Responsible for establishing the organisation’s **API documentation ecosystem*
 
 Key contributions:
 
-* Built a full **API documentation platform** for six production services using Markdown and MkDocs.
-* Created automation tooling that generated documentation from **OpenAPI specifications**.
-* Developed Postman collections covering **1,000+ API endpoints** for testing and integration workflows.
-* Supported engineering and DevOps teams in debugging and integration scenarios.
+- Built a full **API documentation platform** for six production services using Markdown and MkDocs.
+- Created automation tooling that generated documentation from **OpenAPI specifications**.
+- Developed Postman collections covering **1,000+ API endpoints** for testing and integration workflows.
+- Supported engineering and DevOps teams in debugging and integration scenarios.
 
 Key achievements:
 
-* Built a **Python utility that converted OpenAPI files into Markdown documentation**, reducing documentation production time by ~90%.
-* Delivered custom integrations for high-profile clients including the **German National Cycling Team**.
-* Established documentation infrastructure used by developers and DevOps teams globally.
+- Built a **Python utility that converted OpenAPI files into Markdown documentation**, reducing documentation production time by ~90%.
+- Delivered custom integrations for high-profile clients including the **German National Cycling Team**.
+- Established documentation infrastructure used by developers and DevOps teams globally.
 
 
 ### Technical Writer & Product Trainer
@@ -144,15 +144,28 @@ Worked across product, engineering, and client teams to design **technical docum
 
 Key contributions:
 
-* Built a **Git-based docs-as-code system** using AsciiDoc and Python automation.
-* Managed a repository containing thousands of technical documents supporting multiple product lines.
-* Developed training programs used by major Australian banks and enterprise clients.
+- Built a **Git-based docs-as-code system** using AsciiDoc and Python automation.
+- Managed a repository containing thousands of technical documents supporting multiple product lines.
+- Developed training programs used by major Australian banks and enterprise clients.
 
 Key achievements:
 
-* Reduced documentation publishing time by **80% through automation pipelines**.
-* Established scalable documentation infrastructure that replaced manual publishing workflows.
-* Enabled faster client onboarding and improved developer support.
+- Reduced documentation publishing time by **80% through automation pipelines**.
+- Established scalable documentation infrastructure that replaced manual publishing workflows.
+- Enabled faster client onboarding and improved developer support.
+
+### Technical Writer
+
+#### Broadspectrum | 2010-2014
+
+Worked for Broadspectrum's Infrastcture ANZ business as a technical writer to write **proposals and responses to tenders** across the Water, Energy and Electrical Distributions industries.
+
+### Pervious roles
+
+- Consultant Technical Writer, ANZ Banking Corporation, 2010
+- Technical Author, Northgate Arinso, 2008-2010
+- Technical Author, SPX Corportation, 2007-2008
+- Technical Writer, Rutledge Engineering, 2006-2007
 
 ## Education
 

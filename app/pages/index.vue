@@ -1,29 +1,37 @@
 <template>
 
-    <UPageHero title="Chris Gardiner-Bill"
-        description="Building tools and documentation that help developers integrate APIs and AI systems."
-        :links="links" />
+  <UPageHero 
+    title="Chris Gardiner-Bill"
+    description="Building tools and documentation that help developers integrate APIs and AI systems."
+    :links="links" />
 
-        <USeparator />
+  <USeparator />
 
-    <UPageSection title="What I do" description="I specialize in technical writing, software development, and DevOps, with a focus on API documentation, web development, and cloud infrastructure.">
-        <UPageGrid >
-            <UPageCard title="Technical Writing"
-                description="API documentation, user guides, and tutorials. Editing, style guides, content strategies, and training." />
-            <UPageCard title="Development"
-                description="Full-stack web developer with Python, JavaScript/Typescript and modern web technologies including Vue, React, and Node." />
-            <UPageCard title="DevOps &amp; Infrastructure"
-                description="Automated deployment to cloud services (AWS, Cloudflare, GCP), virtual private servers, Docker and CI/CD pipelines." />
-        </UPageGrid>
-    </UPageSection>
+  <UPageSection title="What I do"
+    description="I specialise in technical writing, software development, and DevOps, with a focus on API documentation, web development, and cloud infrastructure.">
+    <UPageGrid>
+      <UPageCard 
+        title="Technical Writing"
+        description="API documentation, user guides, and tutorials. Editing, style guides, content strategies, and training."
+        icon="i-lucide-pencil"
+         />
+      <UPageCard 
+        title="Development"
+        description="Full-stack web developer with Python, JavaScript/Typescript and modern web technologies including Vue, React, and Node."
+        icon="i-lucide-code" />
+      <UPageCard 
+        title="DevOps &amp; Infrastructure"
+        description="Automated deployment to cloud services (AWS, Cloudflare, GCP), virtual private servers, Docker and CI/CD pipelines."
+        icon="i-lucide-server" />
+    </UPageGrid>
+  </UPageSection>
 
-    <USeparator />
-    
-  <UPageSection
+  <USeparator />
+
+  <UPageSection 
     title="What I build"
     description="I build tools and documentation that help developers integrate APIs and AI systems, including:"
-    :features="buildFeatures"
-  />
+    :features="buildFeatures" />
 
 </template>
 
@@ -31,20 +39,27 @@
 import type { ButtonProps } from '@nuxt/ui'
 
 const links = ref<ButtonProps[]>([
-    {
-        label: 'Projects',
-        to: '/projects',
-        icon: 'i-lucide-code',
-        color: 'neutral',
-        variant: 'subtle',
-    },
-    {
-        label: 'Writing',
-        to: '/writing',
-        color: 'neutral',
-        variant: 'subtle',
-        icon: 'i-lucide-pencil'
-    }
+  {
+    label: 'Projects',
+    to: '/projects',
+    icon: 'i-lucide-code',
+    color: 'neutral',
+    variant: 'subtle',
+  },
+  {
+    label: 'Writing',
+    to: '/writing',
+    color: 'neutral',
+    variant: 'subtle',
+    icon: 'i-lucide-pencil'
+  },
+  {
+    label: 'Contact',
+    to: '/contact',
+    color: 'neutral',
+    variant: 'subtle',
+    icon: 'i-lucide-mail'
+  }
 ])
 
 const buildFeatures = ref<PageFeatureProps[]>([
@@ -62,7 +77,7 @@ const buildFeatures = ref<PageFeatureProps[]>([
   },
   {
     title: 'AI-powered documentation assistants',
-    description: 'Intelligent assistants that help generate, maintain, and improve documentation using AI technologies.',
+    description: 'Intelligent assistants that help generate, maintain, index, and improve documentation using AI technologies.',
     icon: 'i-lucide-bot',
     // to: '/docs/getting-started/integrations/color-mode'
   },

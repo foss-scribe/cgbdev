@@ -1,9 +1,9 @@
 ---
 title: "Writing a resume with Git and markdown"
 date: "2023-01-21"
-description: "A tutorial on how to write a resume with git and markdown"
-author:"Chris Gardiner-Bill"
-tags: "tutorial"
+description: "How to write a resume with git and markdown"
+author: "Chris Gardiner-Bill"
+tags: ["tutorial", "markdown"]
 ---
 
 

@@ -1,18 +1,29 @@
 <template>
-  <UPageSection v-if="page" :title="page.title" :headline="page.meta.headline">
-    <ContentRenderer :value="page" />
-  </UPageSection>
-</template> 
+
+  <UContainer v-if="page">
+    <UPageHeader :title="page.title" :description="page.description">
+      <template #headline>
+        <UBadge v-for="tag in page.tags" :key="tag" variant="subtle">{{ tag }}</UBadge>
+        <span class="text-muted">&middot;</span>
+        <time class="text-muted">{{ new Date(page.date).toLocaleDateString('en', {
+          year: 'numeric', month: 'short', day:
+            'numeric'
+        }) }}</time>
+      </template>
+
+    </UPageHeader>
+    <UPage>
+      <UPageBody>
+        <ContentRenderer :value="page" />
+      </UPageBody>
+    </UPage>
+  </UContainer>
+</template>
 <script setup lang="ts">
 const route = useRoute();
 
 const { data: page } = await useAsyncData(route.path, () => {
 
   return queryCollection('articles').path(route.path).first()
-  // if (route.path.startsWith('/posts')) {
-  //   return queryCollection('content').path(route.path).first()
-  // } else {
-  //   return queryCollection('content').path(route.path).first()
-  // }
 })
 </script>
