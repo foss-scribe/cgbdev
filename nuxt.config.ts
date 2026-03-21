@@ -5,6 +5,14 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/devtools',
     '@nuxt/content',
-    '@nuxt/ui'],
-    css: ['~/assets/css/main.css'],
+    '@nuxt/ui',
+    'nuxt-umami',
+  ],
+  css: ['~/assets/css/main.css'],
+  umami: {
+    id: "b6af0ace-c050-49d6-9bcb-aa9649552dbc",
+    host: "https://cloud.umami.is",
+    autoTrack: true,
+    ignoreLocalhost: true
+  },
 })

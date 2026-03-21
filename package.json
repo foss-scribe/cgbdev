@@ -19,6 +19,7 @@
     "better-sqlite3": "^12.4.1",
     "eslint": "^9.37.0",
     "nuxt": "^4.3.1",
+    "nuxt-umami": "^3.2.1",
     "tailwindcss": "^4.2.1",
     "vue": "^3.5.29",
     "vue-router": "^4.6.4",
