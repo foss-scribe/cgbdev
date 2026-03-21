@@ -15,6 +15,10 @@ export default defineContentConfig({
                 date: z.string().transform((str) => new Date(str)),
                 tags: z.array(z.string()).optional(),
             })
-        })
+        }),
+        examples: defineCollection({
+            type: 'page',
+            source: 'examples/**/*.md'
+        }),
     },
 })

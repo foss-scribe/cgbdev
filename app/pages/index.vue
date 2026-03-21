@@ -39,20 +39,34 @@
 import type { ButtonProps } from '@nuxt/ui'
 
 const links = ref<ButtonProps[]>([
-  {
-    label: 'Projects',
-    to: '/projects',
-    icon: 'i-lucide-code',
-    color: 'neutral',
-    variant: 'subtle',
-  },
-  {
-    label: 'Writing',
-    to: '/writing',
-    color: 'neutral',
-    variant: 'subtle',
-    icon: 'i-lucide-pencil'
-  },
+    // {
+    //   label: 'Projects',
+    //   to: '/projects',
+    //   icon: 'i-lucide-code',
+    //   color: 'neutral',
+    //   variant: 'subtle',
+    // },
+    // {
+    //   label: 'Writing',
+    //   to: '/writing',
+    //   color: 'neutral',
+    //   variant: 'subtle',
+    //   icon: 'i-lucide-pencil'
+    // },
+    {
+      label: 'Articles',
+      to: '/articles',
+      color: 'neutral',
+      variant: 'subtle',
+      icon: 'i-lucide-pencil'
+    },
+    {
+      label: 'Portfolio',
+      to: '/portfolio',
+      color: 'neutral',
+      variant: 'subtle',
+      icon: 'i-lucide-briefcase'
+    },
   {
     label: 'Contact',
     to: '/contact',
