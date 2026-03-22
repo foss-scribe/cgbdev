@@ -20,5 +20,17 @@ export default defineContentConfig({
             type: 'page',
             source: 'examples/**/*.md'
         }),
+        projects: defineCollection({
+            type: 'page',
+            source: 'projects/**/*.md',
+            schema: z.object({
+                title: z.string(),
+                description: z.string(),
+                stack: z.array(),
+                github: z.string(),
+                demo: z.string(),
+                image: z.string()
+            })
+        })
     },
 })
