@@ -1,4 +1,5 @@
 export default eventHandler(async (event) => {
+  const config = useRuntimeConfig()
   const contentLibProjects = await queryCollection(event, 'projects').all()
 
   const projects = contentLibProjects.map((project) => {
@@ -9,7 +10,7 @@ export default eventHandler(async (event) => {
       github: project.github,
       demo: project.demo,
       image: project.image,
-      url: `https://chrisgb.dev${project.path}`
+      url: `${config.public.siteUrl}${project.path}`
     }
   })
 

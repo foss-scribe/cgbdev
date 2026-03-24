@@ -15,4 +15,9 @@ export default defineNuxtConfig({
     autoTrack: true,
     ignoreLocalhost: true
   },
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.SITE_URL || 'https://chrisgb.dev',
+    }
+  }
 })
