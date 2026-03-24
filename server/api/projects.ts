@@ -1,5 +1,5 @@
 export default eventHandler(async (event) => {
-  const config = useRuntimeConfig()
+  const config = useRuntimeConfig(event)
   const contentLibProjects = await queryCollection(event, 'projects').all()
 
   const projects = contentLibProjects.map((project) => {
