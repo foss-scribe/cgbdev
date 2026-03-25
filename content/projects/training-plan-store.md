@@ -6,9 +6,9 @@ stack:
   - Bootstrap
   - JavaScript
   - Snipcart
-github: https://github.com/example/project
-demo: https://demo.site
-image: tbc
+github: https://github.com/foss-scribe/tp-dj-plans-ecommerce
+demo: https://tp-dj-plans-ecommerce.netlify.app
+image: /img/projects/tp-dj-plans-ecommerce.png
 ---
 
 ## Overview

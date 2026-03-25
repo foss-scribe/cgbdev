@@ -9,8 +9,8 @@ export default eventHandler(async (event) => {
       stack: project.stack,
       github: project.github,
       demo: project.demo,
-      image: project.image,
-      url: `${config.public.siteUrl}${project.path}`
+      url: `${config.public.siteUrl}${project.path}`,
+      image:`${config.public.siteUrl}${project.image}`
     }
   })
 
