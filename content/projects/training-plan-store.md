@@ -41,6 +41,8 @@ We hosted the site as a subdomain of his main website, using Netlify. Snipcart, 
 
 ## Demo
 
+[Live demo](https://tp-dj-plans-ecommerce.netlify.app)
+
 ## Lessons Learned
 
 - Static sites and the JamStack are a great way to solve a problem cheaply and quickly.
