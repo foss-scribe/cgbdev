@@ -19,5 +19,20 @@ export default defineNuxtConfig({
     public: {
       siteUrl: process.env.SITE_URL || 'https://chrisgb.dev',
     }
+  },
+  nitro: {
+    preset: 'cloudflare_module',
+    cloudflare: {
+      deployConfig: true,
+      wrangler: {
+        d1_databases: [
+          {
+            binding: 'DB',
+            database_name: 'cgbdev',
+            database_id: '9a965a2a-f4c4-4bc5-a7a4-971cb851d2ac'
+          }
+        ]
+      },
+    },
   }
 })
