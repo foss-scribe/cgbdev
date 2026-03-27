@@ -20,7 +20,10 @@
 <script setup lang="ts">
 
 const { data: projects } = await useAsyncData('projects', () => {
-    return queryCollection('projects').all()
+    return  queryCollection('projects')
+    .order('year', 'ASC')
+    .all()
+
 })
 
 </script>

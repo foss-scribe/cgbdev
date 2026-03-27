@@ -1,6 +1,6 @@
 export default eventHandler(async (event) => {
   const config = useRuntimeConfig(event)
-  const contentLibProjects = await queryCollection(event, 'projects').all()
+  const contentLibProjects = await queryCollection(event, 'projects').order('year', 'ASC').all()
 
   const projects = contentLibProjects.map((project) => {
     return {
@@ -10,7 +10,8 @@ export default eventHandler(async (event) => {
       github: project.github,
       demo: project.demo,
       url: `${config.public.siteUrl}${project.path}`,
-      image:`${config.public.siteUrl}${project.image}`
+      image:`${config.public.siteUrl}${project.image}`,
+      year: project.year,
     }
   })
 

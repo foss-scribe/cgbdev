@@ -26,10 +26,11 @@ export default defineContentConfig({
             schema: z.object({
                 title: z.string(),
                 description: z.string(),
-                stack: z.array(),
+                stack: z.array([z.string()]),
                 github: z.string(),
                 demo: z.string(),
-                image: z.string()
+                image: z.string(),
+                year: z.string(),
             })
         })
     },

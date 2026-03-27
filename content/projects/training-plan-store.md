@@ -9,6 +9,7 @@ stack:
 github: https://github.com/foss-scribe/tp-dj-plans-ecommerce
 demo: https://tp-dj-plans-ecommerce.netlify.app
 image: /img/projects/tp-dj-plans-ecommerce.png
+year: 2022
 ---
 
 ## Overview

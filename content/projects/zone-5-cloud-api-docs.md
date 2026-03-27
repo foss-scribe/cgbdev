@@ -8,7 +8,8 @@ stack:
   - Snipcart
 github: 
 demo: 
-image: 
+image: /img/projects/zone-5-cloud-docs.png
+year: 2020
 ---
 
 ## Overview
@@ -19,7 +20,7 @@ Zone5Cloud was the API powering Today's Plan, Specialized training platform for 
 
 When I joined Specialized in 2020, Today's Plan was already a thriving platform that served hundreds of thousands of elite, competitive and recreational athletes, and their coaches. The API, which ran on Java (Spring Boot), had more than 1000 REST endpoints -- but no documentation, causing real pain for the company ahead of it's planned productisation of the API under the brand Zone5Cloud.
 
-My task was to create that documentation so third-party developers could build their own fitness app and services with the API. However, the documentation needed to be embedded Zone5Cloud's admin portal (an Angular app), behind an authoriser (AWS Cognito), 
+My task was to create that documentation so third-party developers could build their own fitness app and services with the API. However, the documentation needed to be embedded in Zone5Cloud's admin portal (an Angular app), hosted behind an authoriser (AWS Cognito), and be duplicated and adapted for each Zone5Cloud deployment.
 
 ## Solution
 
