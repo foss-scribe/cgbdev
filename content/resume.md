@@ -79,6 +79,8 @@ Industry experience includes **AI platforms, SaaS products, fintech, analytics, 
 
 #### Kaluza | 2026-Current
 
+Works with Kaluza's Australian-based Delivery team writing product documentation for APAC clients including AGL and Shell Energy Australia.
+
 ### Consultant – Developer Experience & AI Documentation
 
 #### Sportsbet / Flutter Group | 2025–2026
